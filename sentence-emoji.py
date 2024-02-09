@@ -1,9 +1,9 @@
 import time
 run = ["🏃","run", "running", "ran", "walk", "walking", "walked", "jog", "jogging", "jogged", "sprint", "sprinting", "sprinted"]
 hi = ["👋","hi", "hello", "greetings", "good morning", "good afternoon", "whats up", "hey", "howdy", "hi there", "good day", "good evening", "nice to meet you"]
-late = ["🌆","late", "delayed", "behind schedule", "tardy", "overdue", "postponed", "deferred", "belated", "slow", "lagging"]
-early = ["🌅","early", "ahead of time", "beforehand", "premature", "prompt", "punctual", "on time", "sooner", "advanced", "anticipatory"]
-tim = ["🕰️","time", "hour", "minute", "second", "moment", "occasion", "period", "duration", "interval", "date", "day", "week", "month", "year", "season", "era", "epoch", "age", "generation", "century", "millennium"]
+late = ["🌆","night","evening","late", "delayed", "behind schedule", "tardy", "overdue", "postponed", "deferred", "belated", "slow", "lagging"]
+early = ["🌅","day","morning","early", "ahead of time", "beforehand", "premature", "prompt", "punctual", "on time", "sooner", "advanced", "anticipatory"]
+tim = ["🕰️","time", "hour", "minute", "second", "moment", "occasion", "period", "duration", "interval", "date", "week", "month", "year", "season", "era", "epoch", "age", "generation", "century", "millennium"]
 name = ["📛","my_name_is", "name", "my_name", "name_is", "I_am", "I'm", "this_is", "you_can_call_me", "I_go_by", "I_introduce_myself_as"]
 my = ["🧏","my", "mine", "me", "I", "i", "self", "myself", "own", "personal", "individual", "private", "singular", "unique", "specific"]
 you = ["🫵","you", "yours", "yourself", "u", "ur", "your", "thou", "thee", "thy", "thine", "ye", "y'all", "you_guys", "you_folks", "you_people"]
@@ -38,7 +38,7 @@ bad = ["⚠️","bad","warning","notice"]
 dog = ["🐶","dog","puppy","dogs","puppies"]
 cat = ["🐱","cat","kitten","cats","kittens"]
 down = ["👎","no","cant","nope"]
-
+why = ["🤷","why","how","when","what","where"]
 
 a = 0
 
@@ -223,6 +223,10 @@ def test(
         
     elif list[a].lower() in down:
         print(down[0])
+        
+        
+    elif list[a].lower() in why:
+        print(why[0])
         
     else:
         print("?")
