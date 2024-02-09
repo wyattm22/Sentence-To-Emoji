@@ -12,19 +12,19 @@ animal = ["🫎","animals","animal","dog", "cat", "bird", "fish", "lion", "tiger
 fruit = ["🍓","fruit","fruits","apple", "banana", "orange", "grape", "strawberry", "watermelon", "lemon", "cherry", "mango", "pineapple"]
 shape = ["🔷","shape","shapes","circle", "square", "triangle", "rectangle", "pentagon", "hexagon", "octagon", "star", "heart", "diamond"]
 sport = ["⚾","sports","sport","soccer", "softball", "basketball", "baseball", "tennis", "football", "hockey", "golf", "volleyball", "cricket", "badminton"]
-country = ["🏴󠁥󠁳󠁰󠁶󠁿","country","countries","USA", "China", "India", "Brazil", "Russia", "Canada", "Australia", "France", "Germany", "Japan"]
-food = ["🥗","food","dessert","dinner","breakfast","lunch","appitizer","pizza", "burger", "sushi", "salad", "pasta", "sandwich", "soup", "cake", "ice_cream", "chocolate"]
+country = ["🏴󠁥󠁳󠁰󠁶󠁿","country","countries","usa", "china", "india", "brazil", "russia", "canada", "australia", "france", "germany", "japan"]
+food = ["🥗","food","dessert","dinner","breakfast","lunch","appetizer","pizza", "burger", "sushi", "salad", "pasta", "sandwich", "soup", "cake", "ice_cream", "chocolate"]
 music = ["🎵","music","songs","song", "rock", "pop", "jazz", "classical", "hip hop", "country", "blues", "reggae", "metal", "folk"]
-book = ["📖","book","books","Harry_Potter", "The_Lord_of_the_Rings", "The_Hunger_Games", "The_Da_Vinci_Code", "The_Catcher_in_the_Rye", "To_Kill_a_Mockingbird", "Nineteen_Eighty-Four", "The_Kite_Runner", "The_Girl_with_the_Dragon_Tattoo","The_Chronicles_of_Narnia"]
-movie = ["🎥","movie", "movies", "The_Shawshank_Redemption", "The_Godfather", "The_Dark_Knight", "The_Lion_King", "Forrest_Gump", "Titanic", "The_Matrix", "Star_Wars", "The_Lord_of_the_Rings", "Inception"]
+book = ["📖","book","books","harry_potter", "the_lord_of_the_rings", "the_hunger_games", "the_da_vinci_code", "the_catcher_in_the_rye", "to_kill_a_mockingbird", "nineteen_eighty-four", "the_kite_runner", "the_girl_with_the_dragon_tattoo","the_chronicles_of_narnia"]
+movie = ["🎥","movie", "movies", "the_shawshank_redemption", "the_godfather", "the_dark_knight", "the_lion_king", "forrest_gump", "titanic", "the_matrix", "star_wars", "the_lord_of_the_rings", "inception"]
 flower = ["🌻","flower","flowers","rose", "lily", "tulip", "orchid", "sunflower", "daisy", "jasmine", "lotus", "daffodil", "lavender"]
-planet = ["🪐","planet","planets","Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"]
-car = ["🚗","car","cars","truck","trucks","Toyota", "Honda", "Ford", "Tesla", "BMW", "Audi", "Hyundai", "Nissan", "Chevrolet", "Volkswagen"]
+planet = ["🪐","planet","planets","mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune", "pluto"]
+car = ["🚗","car","cars","truck","trucks","toyota", "honda", "ford", "tesla", "bmw", "audi", "hyundai", "nissan", "chevrolet", "volkswagen"]
 season = ["🍂","season","seasons","spring", "summer", "autumn", "winter"]
 today = ["📅","today","tommorow","yesterday","day"]
 weather = ["☀️", "sunny", "cloudy", "rainy", "windy", "stormy", "foggy", "snowy", "thunderstorm", "hail", "drizzle"]
 profession = ["👩‍⚕️","proffesion","job", "doctor", "teacher", "engineer", "artist", "chef", "scientist", "writer", "pilot", "firefighter", "nurse", "lawyer"]
-holiday = ["🎉","special_day", "holiday", "Christmas", "Thanksgiving", "halloween", "easter", "valentine's_day", " new_year", "independence_day", "labor_day", "hanukkah", "diwali"]
+holiday = ["🎉","special_day", "holiday", "christmas", "thanksgiving", "halloween", "easter", "valentine's_day", " new_year", "independence_day", "labor_day", "hanukkah", "diwali"]
 hobby = ["🎨","hobby","hobbies","for_fun", "painting", "gardening", "photography", "playing_an_instrument", "cooking", "hiking", "knitting", "dancing", "birdwatching"]
 beverage = ["☕","beverage", "coffee", "tea", "juice", "soda", "water", "smoothie", "milkshake", "wine", "beer", "cocktail", "lemonade"]
 computer = ["💻", "computer","computers","laptop","laptops","desktop","desktops","python", "java", "c++", "javascript", "ruby", "go", "swift", "rust", "php", "kotlin", "typescript"]
@@ -51,7 +51,7 @@ def test(
     
         
     
-    elif list[a].lower() in planet:
+    elif list[a].lower() in planet():
         print(planet[0])
     
          
