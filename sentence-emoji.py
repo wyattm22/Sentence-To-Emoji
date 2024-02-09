@@ -8,7 +8,7 @@ name = ["📛","my_name_is", "name", "my_name", "name_is", "I_am", "I'm", "this_
 my = ["🧏","my", "mine", "me", "I", "i", "self", "myself", "own", "personal", "individual", "private", "singular", "unique", "specific"]
 you = ["🫵","you", "yours", "yourself", "u", "ur", "your", "thou", "thee", "thy", "thine", "ye", "y'all", "you_guys", "you_folks", "you_people"]
 color = ["🏳️‍🌈","color","colors","red", "green", "blue", "yellow", "black", "white", "pink", "purple", "orange", "brown"]
-animal = ["🫎","animals","animal","dog", "cat", "bird", "fish", "lion", "tiger", "elephant", "monkey", "bear", "panda"]
+animal = ["🫎","animals","animal", "bird", "fish", "lion", "tiger", "elephant", "monkey", "bear", "panda"]
 fruit = ["🍓","fruit","fruits","apple", "banana", "orange", "grape", "strawberry", "watermelon", "lemon", "cherry", "mango", "pineapple"]
 shape = ["🔷","shape","shapes","circle", "square", "triangle", "rectangle", "pentagon", "hexagon", "octagon", "star", "heart", "diamond"]
 sport = ["⚾","sports","sport","soccer", "softball", "basketball", "baseball", "tennis", "football", "hockey", "golf", "volleyball", "cricket", "badminton"]
@@ -28,6 +28,17 @@ holiday = ["🎉","special_day", "holiday", "christmas", "thanksgiving", "hallow
 hobby = ["🎨","hobby","hobbies","for_fun", "painting", "gardening", "photography", "playing_an_instrument", "cooking", "hiking", "knitting", "dancing", "birdwatching"]
 beverage = ["☕","beverage", "coffee", "tea", "juice", "soda", "water", "smoothie", "milkshake", "wine", "beer", "cocktail", "lemonade"]
 computer = ["💻", "computer","computers","laptop","laptops","desktop","desktops","python", "java", "c++", "javascript", "ruby", "go", "swift", "rust", "php", "kotlin", "typescript"]
+happy = ["😀","happy","smile","laugh"]
+this = ["☝️","this","is","are","was","what"]
+star = ["⭐","star"]
+flame = ["🔥","fire"]
+look = ["👀","look","see","gaze","vision","eye","eyes"]
+good = ["👍","good","thumbs_up","yeah","yep","yes","definitly","sure"]
+bad = ["⚠️","bad","warning","notice"]
+dog = ["🐶","dog","puppy","dogs","puppies"]
+cat = ["🐱","cat","kitten","cats","kittens"]
+down = ["👎","no","cant","nope"]
+
 
 a = 0
 
@@ -51,7 +62,7 @@ def test(
     
         
     
-    elif list[a].lower() in planet():
+    elif list[a].lower() in planet:
         print(planet[0])
     
          
@@ -173,12 +184,51 @@ def test(
     elif list[a].lower() in computer:
         print(computer[0])
             
+            
+    elif list[a].lower() in happy:
+        print(happy[0])
+        
+        
+    elif list[a].lower() in this:
+        print(this[0])
+        
+        
+    elif list[a].lower() in star:
+        print(star[0])
+        
+        
+    elif list[a].lower() in flame:
+        print(flame[0])
+        
+        
+    elif list[a].lower() in look:
+        print(look[0])
+        
+        
+    elif list[a].lower() in good:
+        print(good[0])
+        
+        
+    elif list[a].lower() in bad:
+        print(bad[0])
+        
+        
+    elif list[a].lower() in dog:
+        print(dog[0])
+        
+        
+    elif list[a].lower() in cat:
+        print(cat[0])
+        
+        
+    elif list[a].lower() in down:
+        print(down[0])
         
     else:
         print("?")
    
    
-    time.sleep(1)
+    time.sleep(.05)
     
 
 
