@@ -1,5 +1,10 @@
+#7th edit adds more words, and streamlines the variables
+
+
+#imports the time module for delays
 import time
 
+#these are all of the words that are in the repository, all in different catagories
 run=["🏃","run","go","running","ran","walk","walking","walked","jog","jogging","jogged","sprint","sprinting","sprinted"]
 hi=["👋","hi","hello","greetings","goodmorning","goodafternoon","whatsup","hey","howdy","hithere","goodday","goodevening","nicetomeetyou"]
 late=["🌆","night","evening","late","delayed","behindschedule","tardy","overdue","postponed","deferred","belated","slow","lagging"]
@@ -10,6 +15,7 @@ my=["🧏","my","mine","me","I","i","self","myself","own","personal","individual
 you=["🫵","you","yours","yourself","u","ur","your","thou","thee","thy","thine","ye","y'all","you_guys","you_folks","you_people"]
 color=["🌈","rainbow","color","colors","red","green","blue","yellow","black","white","pink","purple","orange","brown"]
 animal=["🫎","animals","animal","bird","fish","lion","tiger","elephant","monkey","bear","panda"]
+rainbow_flag = ['🏳️‍🌈',"lgbtq+","lgbtq","queer","lesbian","gay","bi","trans","transgender","trans_gender","nonbinary","pride","pride_flag"]
 fruit=["🍓","fruit","fruits","apple","banana","orange","grape","strawberry","watermelon","lemon","cherry","mango","pineapple"]
 shape=["🔷","shape","shapes","circle","square","triangle","rectangle","pentagon","hexagon","octagon","star","heart","diamond"]
 sport=["⚾","sports","sport","soccer","softball","basketball","baseball","tennis","football","hockey","golf","volleyball","cricket","badminton"]
@@ -22,19 +28,19 @@ flower=["🌻","flower","flowers","rose","lily","tulip","orchid","sunflower","da
 planet=["🪐","planet","planets","mercury","venus","earth","mars","jupiter","saturn","uranus","neptune","pluto"]
 car=["🚗","car","cars","truck","trucks","toyota","honda","ford","tesla","bmw","audi","hyundai","nissan","chevrolet","volkswagen"]
 season=["🍂","season","seasons","spring","summer","autumn","winter"]
-today=["📅","today","tommorow","yesterday","day"]
+today=["📅","today","tomorrow","yesterday","day","calender"]
 weather=["☀️","weather","sunny","cloudy","rainy","windy","stormy","foggy","snowy","thunderstorm","hail","drizzle"]
-profession=["👩‍⚕️","proffesion","job","doctor","teacher","engineer","artist","chef","scientist","writer","pilot","firefighter","nurse","lawyer"]
+profession=["👩‍⚕️","profession","job","doctor","teacher","engineer","artist","chef","scientist","writer","pilot","firefighter","nurse","lawyer"]
 holiday=["🎉","special_day","holiday","christmas","thanksgiving","halloween","easter","valentine's_day","new_year","independence_day","labor_day","hanukkah","diwali"]
 hobby=["🎨","hobby","hobbies","for_fun","painting","gardening","photography","playing_an_instrument","cooking","hiking","knitting","dancing","birdwatching"]
 beverage=["☕","beverage","coffee","tea","juice","soda","water","smoothie","milkshake","wine","beer","cocktail","lemonade"]
 computer=["💻","computer","computers","laptop","laptops","desktop","desktops","python","java","c++","javascript","ruby","swift","rust","php","kotlin","typescript"]
 happy=["😀","happy","smile"]
-this=["☝️","this","is","are","was","what"]
+this=["☝️","this","is","are","was"]
 star=["⭐","star"]
-flame=["🔥","fire"]
+flame=["🔥","fire","burn","burning"]
 look=["👀","look","see","gaze","vision","eye","eyes"]
-good=["👍","good","thumbs_up","yeah","yep","yes","definitly","sure"]
+good=["👍","good","thumbs_up","yeah","yep","yes","definitely","sure","ok"]
 bad=["⚠️","bad","warning","notice"]
 dog=["🐶","dog","puppy","dogs","puppies"]
 cat=["🐱","cat","kitten","cats","kittens"]
@@ -44,7 +50,7 @@ sleep=["🥱","tired","sleep","sleepy","zzz","asleep","sleeping"]
 luck=["🤞","luck","good_luck","hope","cross_your_fingers","hope_so"]
 cold=["🥶","cold","freeze","freezing","ice","ice_cube","chilled"]
 scared=["😱","scared","terrified","scream","scary","boo","ahh"]
-hot=["🥵","hot","burning","burn","fever"]
+hot=["🥵","hot","fever"]
 sick=["🤢","sick","sickly","throwup","throw_up",]
 clown=["🤡","clown","clowns","circus"]
 disguise=["🥸","disguise","costume"]
@@ -53,7 +59,7 @@ alien=["👽","alien","out_of_this_world","ufo"]
 skull=["☠️","skull","skull_and_crossbones","death","poison"]
 devil=["😈","devil","hell","evil"]
 ear=["👂","listen","hear","ear","listen_up","overhear"]
-pumpkin=["🎃","pumpkin","jackolantern","carved_pumpkin","halloween","jack_o_lantern"]
+pumpkin=["🎃","pumpkin","jackolantern","carved_pumpkin","halloween","jack_o_lantern","carvedpumpkin"]
 present=["🎁","present","christmas","birthday","gift"]
 backpack=["🎒","backpack","bag","totebag","tote_bag","luggage"]
 dice=["🎲","dice","die","random","dnd","d&d","ttrpg","rpg","random_number"]
@@ -66,13 +72,13 @@ crying = ['😭',"crying","cry"]
 please = ['🙏',"please","plead"]
 nervous = ['😅',"nervous",]
 slap = ['🤦',"slap","slap_in_the_face","dang_it","oh_no","not_good","ahh","ah","ahhh"]
-rolled = ['🙄',"eyes_rolled","rolled","of_course","sarcastic","sarcasim"]
+rolled = ['🙄',"eyes_rolled","rolled","of_course","sarcastic","sarcasm"]
 wink = ['😉',"wink","winking","winked"]
-cake = ['🎂',"cake","birthday_cake","treat","suprise"]
+cake = ['🎂',"cake","birthday_cake","treat","surprise"]
 thinking = ['🤔',"thinking","thought","hm","hmm","hmmm","interesting","what_if","whatif","however"]
-clap = ['👏',"clap","clapping","claping","claps","great_job","greatjob"]
+clap = ['👏',"clap","clapping","clapping","claps","great_job","greatjob"]
 right = ['👉',"right","go_right","turn_right","look_right"]
-onehundred = ['💯',"onehundred","one_hundred","100","100%"]
+onehundred = ['💯',"onehundred","one_hundred","100","100%","hundred"]
 mad = ['😡',"mad","frustrated","angry","furious","frown"]
 down = ['👇',"down","look_down","turn_down","go_down",]
 upsidedown = ['🙃',"silly","upside_down","upsidedown","flipped","flip"]
@@ -82,7 +88,6 @@ sad = ['😞',"sad","upset",]
 boom = ['💥',"boom","explosion","explode","crash"]
 left = ['👈',"left","go_left","turn_left","look_left"]
 wow = ['❗',"wow"]
-rainbow_flag = ['🏳️‍🌈',"lgbtq+","lgbtq","queer","lesbian","gay","bi","trans","transgender","trans_gender","nonbinary","pride","pride_flag"]
 electricity = ['⚡',"electricity"]
 huh = ['🤨',"huh","huh?","suspicious","sus",""]
 monocle = ['🧐',"monocle"]
@@ -91,7 +96,7 @@ siren = ['🚨',"siren","sirens","lights_and_sirens"]
 tv = ['📺',"tv","television","show"]
 phone = ['📱',"phone","telephone","smartphone","smart_phone","call","ring"]
 camera = ['📷',"camera","picture","photo","photographer"]
-mushroom = ['🍄',"mushroom","mushrooms","shroom"]
+mushroom = ['🍄',"mushroom","mushrooms","shroom","fungi","fungus"]
 chocolate = ['🍫',"chocolate","sweets","sweet","treat","sweet_treat"]
 guitar_not_really = ['🎸',"guitar","bass","electric_guitar","acoustic_guitar"]
 headphones = ['🎧',"headphones","headphone","earbud","earbuds","listen_to"]
@@ -103,8 +108,10 @@ plane = ['✈️',"plane","planes","fly"]
 trophy = ['🏆',"trophy"]
 printer = ['🖨️',"printer","print","evil_machine","does_not_work"]
 mailbox = ['📭',"mailbox","mail_box","mail","message"]
-cabinet = ['🗄️',"cabinet","drawer","storage","storage_space","cabinets"]
-                    
+cabinet = ['🗄️',"cabinet","drawer","storage","storage_space","cabinets","storagespace"]
+
+
+#this list links back to all of the other lists, to automate the checking process               
 checks = [
     run,
     hi,
@@ -213,51 +220,71 @@ checks = [
 ]
 
 
+#Word in input sentence
+WordInInput = 0
 
-a = 0
+#checking the number of lists
+ListCheck = len(checks)
 
-b = len(checks)
-
-num_of = b - 1
 #number of lists -1 is num_of
+NumOfLists = ListCheck - 1
 
-s = input("Please Type In A Sentence,  ")
+#Input sentence
+Input = input("Please Type In A Sentence,  ")
 
-if s == "help":
+#Providing information when "help" is put into input sentence
+if Input.lower() == "help":
     print("If There Are Spaces In One Thing Like 'New Year' Use _ Instead 'New_Year'")
     time.sleep(3)
     exit()
 
-l = s.split()
-list = l
-how_many = len(list)
+#splitting the input sentence into a list
+Sentence = Input.split()
+
+#checking how many words are in the sentence list
+NumOfWords = len(Sentence)
 
 
 def emoji(
     
 ):
-    akd = 0
+    #list that the list checks is reffering back to
+    ListSelector = 0
     
+    #infinite loop
     while 1 < 5:
         
+        #if the word in question (chosen by the "a" variable) is in the list that "checks" "ListSelector" is referring back to, 
+        if Sentence[WordInInput].lower() in checks[ListSelector]:
         
-        if list[a].lower() in checks[akd]:
-        
-            print(checks[akd][0])
+            # print the first entry of that list
+            print(checks[ListSelector][0])
             break
         
         else:
-            if akd == num_of:
+            #otherwise either stop if that was the last list in the repository
+            if ListSelector == NumOfLists:
                 break
+            #or add one to "ListSelector" to change what list it is checking
             else:
-                akd += 1
+                ListSelector += 1
 
     
     
+#check_num is just another loop
+Loop = 0
 
-check_num = 0
-while check_num < 9:    
+#this checks to see if the last check was the last word in the sentence, and if not, keep checking the next words
+while Loop < 9:    
     emoji()
-    a += 1
-    if a == how_many:
+    WordInInput += 1
+    if WordInInput == NumOfWords:
         break
+
+#This allows you to exit the program without pressing a ctl-c type of shortcut
+y = input()
+
+if y.lower() == "":
+    exit()
+else:
+    exit()
